@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/green1"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/green1"
+        android:id="@+id/l1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player X : 0"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:id="@+id/tv1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            />
+
+            <TextView
+                android:textColor="#FFFFFF"
+
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player O : 0"
+            android:textSize="25dp"
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+                android:freezesText="true"
+            />
+
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/br"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tv1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="-195dp"
+            android:background="@drawable/border_btn"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:text="RESET"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b00"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/border_btn_2"
+            android:layout_margin="7dp"
+            android:id="@+id/b22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
